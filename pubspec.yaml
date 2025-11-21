@@ -1,0 +1,47 @@
+name: rodistaa_operator_app
+description: Rodistaa Operator App - My Bookings Feature
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client for API calls
+  http: ^1.1.0
+  
+  # Date formatting
+  intl: ^0.18.1
+  
+  # Icons
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.5+1
+  google_fonts: ^6.3.2
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # Location and Maps
+  google_maps_flutter: ^2.5.0
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/images/
+
+
